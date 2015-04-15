@@ -1,0 +1,49 @@
+Application received signal SIGSEGV
+(null)
+(
+0   CoreFoundation                      0x2d01f4b7 &lt;redacted&gt; + 150
+1   libobjc.A.dylib                     0x3a83ec8b objc_exception_throw + 38
+2   CoreFoundation                      0x2d01f3e5 &lt;redacted&gt; + 0
+3   ??????                              0x00571c51 _ZN12CAX4CCStringC2El + 801188
+4   libsystem_platform.dylib            0x3aefe873 _sigtramp + 34
+5   ???                                 0xffffffff 0x0 + 4294967295
+6   libicucore.A.dylib                  0x3a3b54e1 _ZN3icu12RegexMatcher4findEv + 832
+7   libicucore.A.dylib                  0x3a3e948b uregex_findNext + 46
+8   Foundation                          0x2dcbb6f9 &lt;redacted&gt; + 808
+9   Foundation                          0x2dcbb379 &lt;redacted&gt; + 212
+10  ??????                              0x003d4ca3 ?????? + 3341475
+11  ??????                              0x003d4e8b ?????? + 3341963
+12  ??????                              0x003d56af ?????? + 3344047
+13  ??????                              0x003e2eb9 ?????? + 3399353
+14  ??????                              0x003f5a79 ?????? + 3476089
+15  ??????                              0x003e9ed3 ?????? + 3428051
+16  CFNetwork                           0x2cb78f81 &lt;redacted&gt; + 56
+17  CFNetwork                           0x2cb78f3b &lt;redacted&gt; + 182
+18  CFNetwork                           0x2cb7905d &lt;redacted&gt; + 36
+19  CFNetwork                           0x2cb66cd1 &lt;redacted&gt; + 84
+20  CFNetwork                           0x2cb2bf4f &lt;redacted&gt; + 86
+21  CFNetwork                           0x2cb2a889 &lt;redacted&gt; + 60
+22  CFNetwork                           0x2ca7ef4d &lt;redacted&gt; + 60
+23  CoreFoundation                      0x2cf30e2d CFArrayApplyFunction + 36
+24  CFNetwork                           0x2ca7ee07 &lt;redacted&gt; + 182
+25  CFNetwork                           0x2ca7eccd &lt;redacted&gt; + 216
+26  CFNetwork                           0x2ca7eb61 &lt;redacted&gt; + 48
+27  CoreFoundation                      0x2cfe5d57 &lt;redacted&gt; + 14
+28  CoreFoundation                      0x2cfe5167 &lt;redacted&gt; + 218
+29  CoreFoundation                      0x2cfe37cd &lt;redacted&gt; + 772
+30  CoreFoundation                      0x2cf313c1 CFRunLoopRunSpecific + 476
+31  CoreFoundation                      0x2cf311d3 CFRunLoopRunInMode + 106
+32  Foundation                          0x2dc6ab9d &lt;redacted&gt; + 264
+33  Foundation                          0x2dcb905d &lt;redacted&gt; + 80
+34  ??????                              0x004e8cc9 _ZN12CAX4CCStringC2El + 240156
+35  Foundation                          0x2dd2fafb &lt;redacted&gt; + 1118
+36  libsystem_pthread.dylib             0x3af01e93 &lt;redacted&gt; + 138
+37  libsystem_pthread.dylib             0x3af01e07 _pthread_start + 118
+38  libsystem_pthread.dylib             0x3aeffb90 thread_start + 8
+)
+
+dSYM UUID: 94A00A53-3EE0-39AA-B98E-9113A3557DE7
+CPU Type: armv7
+Slide Address: 0x00004000
+Binary Image: ??
+Base Address: 0x000a5000
